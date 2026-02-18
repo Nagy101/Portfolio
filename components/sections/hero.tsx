@@ -24,10 +24,12 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button className="bg-[#38BDF8] hover:bg-[#0EA5E9] text-black font-semibold px-8 py-6 text-base rounded-lg transition-all duration-300 hover:scale-105">
-                View My Work
-                <ArrowRight className="ml-2" size={20} />
-              </Button>
+              <a href="#projects">
+                <Button className="bg-[#38BDF8] hover:bg-[#0EA5E9] text-black font-semibold px-8 py-6 text-base rounded-lg transition-all duration-300 hover:scale-105">
+                  View My Work
+                  <ArrowRight className="ml-2" size={20} />
+                </Button>
+              </a>
               <a
                 href="https://drive.google.com/file/d/1Nv1du0NvV7A5-RdlP3wgEvf2ZcJK1lOa/view?usp=sharing"
                 target="_blank"
